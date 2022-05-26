@@ -164,3 +164,10 @@ async function start() {
     if(playing && !initPending) setTimeout(start, restTime);
     if(initPending) init(initPending);
 }
+
+
+// "go venture far beyond-the-shores
+// dont-forsake this life-of-yours
+// i'll guide you home no matter where you are"
+
+

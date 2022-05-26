@@ -69,7 +69,7 @@ function getNextPointACO(ant) {
         }   
         r -= prob[i][1];
     }
-    // if(!next) return pos[Math.floor(Math.random()*pos.length)];
+    if(!next) return pos[Math.floor(Math.random()*pos.length)];
     return next;
 }
 
@@ -94,7 +94,6 @@ function update() {
 }
 
 function init(newNumPoints) {
-    console.log("init", newNumPoints);
     if(newNumPoints) {
         numPoints = newNumPoints;
         numAnts = numPoints/4;
@@ -125,4 +124,7 @@ function init(newNumPoints) {
     playing=0;
 }
 init();
+
+console.log("(●'◡'●)");
+console.log("%corange", "font-style:italic;");
 
