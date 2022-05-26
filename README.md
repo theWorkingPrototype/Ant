@@ -3,6 +3,8 @@ ACO for Travelling Salesman problem
 
 <h3>CONTROLS</h3>
 
+CLICK TO PLAY/PAUSE
+
 - points is number of points (0 to 1000)
 - ants is number of ants per round (0 to number of points)
 - alpha is a parameter to control the influence of pheromones (-10 to 10)
